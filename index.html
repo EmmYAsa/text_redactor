@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+
+<body>
+    <!-- <div class="first">
+        <div id="result"></div>
+        <h4>Add new message</h4>
+        <form onsubmit="event.preventDefault(); AddMessage()">
+            <label for="name">Your name: </label>
+            <input type="text" id="name"><br>
+            <label for="message">Your message: </label>
+            <input type="text" id="message" required><br>
+
+            <input type="submit" value="Add message" id="submit"><br>
+        </form>
+
+    </div> -->
+
+    <!-- <div class="second">
+        <div id="questions">
+            <h3 id="questionTitle"></h3>
+            <p id="question"></p>
+            <input type="radio" name="answer" value="a"> а) <span id="optionA"></span><br>
+            <input type="radio" name="answer" value="b"> б) <span id="optionB"></span><br>
+
+            <button class="button" onclick="nextQuestion()">Next</button>
+            <button class="button" onclick="finishTest()" style="display: none;">Finish</button>
+        </div>
+
+        <div id="result" style="display: none;">
+            <h2>Результати</h2>
+            <p id="score"></p>
+        </div>
+    </div> -->
+
+    <div class="third">
+        <div>
+            <input type="checkbox" id="boldCheckbox">
+            <label for="boldCheckbox">Bold</label>
+
+            <input type="checkbox" id="underlineCheckbox">
+            <label for="underlineCheckbox">Underline</label>
+
+            <input type="checkbox" id="italicCheckbox">
+            <label for="italicCheckbox">Italic</label>
+
+            <input type="radio" id="leftRadio" name="alignment" value="left">
+            <label for="leftRadio">Left</label>
+
+            <input type="radio" id="rightRadio" name="alignment" value="right">
+            <label for="rightRadio">Right</label>
+
+            <input type="radio" id="justifyRadio" name="alignment" value="center">
+            <label for="justifyRadio">Justify</label><br>
+        </div>
+
+        <textarea id="text" rows="10" cols="50"></textarea><br>
+        <input type="submit" id="submit" value="Show text" onclick="textTransform()">
+
+        <div id="result"></div>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
